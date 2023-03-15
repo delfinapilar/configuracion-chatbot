@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - HTML5 Contact Form</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./main.js" type="module"></script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">  
+  <form id="contact" action="" method="post">
+    <h3>Responde estas preguntas</h3>
+    <h4>Ayudanos a configurar las respuestas automáticas de tu chatbot</h4>
+    <fieldset>
+      <input placeholder="Nombre de tu negocio" type="text" class="negocio" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Danos una breve descripción sobre tu negocio" type="text" class="descrip_1" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Danos una descripción de tu negocio más extensa" type="text"  class="descrip_2" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="¿Cuáles son sus horarios de atención?" type="text" class="horarios"  tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="¿Cuentan con distintos planes u ofertas? Detallar aquí cada uno de ellos.
+" tabindex="4" class="planes" required></textarea>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="¿Cuáles son algunas consultas que recibe reiteradamente por parte de clientes?
+" tabindex="5" class="consultas_frecuentes" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
+    </fieldset>
+  </form>
+  
+</div>
+<!-- partial -->
+  
+</body>
+</html>
