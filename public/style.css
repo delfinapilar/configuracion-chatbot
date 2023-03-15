@@ -12,7 +12,8 @@ body {
 	font-size: 12px;
 	line-height:30px;
 	color:#777;
-	background:rgb(8, 6, 133);
+	background-image: url("../img/background-office.png");
+	background-size: cover;
 }
 
 .container {
@@ -79,7 +80,7 @@ fieldset {
 	cursor:pointer;
 	width:100%;
 	border:none;
-	background:#0CF;
+	background:rgb(78, 137, 151);
 	color:#FFF;
 	margin:0 0 5px;
 	padding:10px;
